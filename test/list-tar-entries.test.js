@@ -1,6 +1,5 @@
 import { describe, it, expect } from "vitest";
 import path from "path";
-import fs from "fs/promises";
 import { listTarItems } from "../src/index.js";
 
 const filePaths = [

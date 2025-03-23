@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "List items in a .tar, .tar.gz, or .tar.br archive.",
   "type": "module",
+  "types": "index.d.ts",
   "main": "./src/index.js",
   "exports": {
     ".": "./src/index.js"
   },
+  "files":[    
+    "./src/"
+  ],
+  "sideEffects": false,
   "engines": {
     "node": ">=16.0.0"
   },
