@@ -1,0 +1,46 @@
+{
+  "name": "list-tar-items",
+  "version": "1.0.0",
+  "description": "List items in a .tar, .tar.gz, or .tar.br archive.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Alex Stevovich",
+    "email": "alex.stevovich@gmail.com",
+    "url": "https://alexstevovich.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexstevovich/list-tar-items-node.git"
+  },
+  "scripts": {
+    "test": "npx vitest --run",
+    "build": "npx shipmast src/**/*.js"
+  },
+  "keywords": [
+    "tar",
+    "tar.gz",
+    "tar.br",
+    "decompress",
+    "archive",
+    "stream",
+    "nodejs",
+    "untar",
+    "extract",
+    "list items"
+  ],
+  "dependencies": {
+    "tar": "^7.4.3"
+  },
+  "devDependencies": {
+    "shipmast": "^1.0.0",
+    "vitest": "^3.0.9"
+  }
+}
